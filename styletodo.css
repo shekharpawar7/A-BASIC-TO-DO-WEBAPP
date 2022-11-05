@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+nav{
+   font-family: 'Redressed', cursive;  
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.7rem;
+   color: white;
+}
+
+nav ul
+{
+    display:flex;
+    background:linear-gradient(to bottom, yellowgreen, rgba(4, 79, 209, 0.499));
+    color: brown;
+    list-style-type:none;
+    padding: 1.0rem;
+    margin: 0rem;
+    align-items: center;
+    cursor: pointer;
+}
+li{
+    margin-left: 2.0rem;
+    font-weight: bolder;
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(198, 238, 17), rgba(4, 209, 11, 0.718));
+    background-repeat: no-repeat;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    /* align-items: center;  */
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+section{
+    margin-top: 80px;
+    size: 50%;
+}
+h1{
+    text-align :center;
+    color:black;
+    font-size:40px;
+    margin-bottom:20px ;
+    font-weight: bolder;
+    font-style: bold;
+}
+
+img{
+    size:50%;
+
+}
+
+.wrapper{
+    width: 500px;
+
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    height:52px;
+}
+
+input,button{
+    border:none;
+    outline: none;
+}
+
+.input-container input{
+    padding:18px 15px;
+    font-size:15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width:320px;
+}
+.input-container button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* width:20px; */
+    cursor: pointer;
+    padding: 16px 20px;
+    color: rgba(0, 255, 30, 0.628);
+    font-size: larger;
+    background:#ffff;
+    border-left:2px solid white;
+
+}
+
+.input-container button:hover{
+    color: white;
+    background:rgba(170, 208, 18, 0.864);
+}
+
+.todo-container{
+    margin-top : 20px;
+    padding: 0;
+}
+.todo-container .todo{
+    margin: 0 auto;
+    margin-bottom: 12px;
+    display:flex;
+    justify-content:  flex-end;
+    flex-direction:row;
+    background: aliceblue;
+    border-radius: 10px;
+    font-size: large;
+    /* cursor: pointer; */
+}
+.todo-container .completed{
+    width: 80%;
+    text-decoration: line-through;
+    color:rgba(169, 169, 169, 0.704);
+    /* cursor: pointer; */
+    opacity: 0.7;
+}
+
+.todo-container button{
+    padding: 10px;
+    flex: 1;
+    margin: 0;
+
+}
+
+
+.todo-container .todo-check{
+    color:rgb(0, 255, 38);
+    font-size: larger;
+    background: white;
+    border-left: 2px solid rgba(255, 241, 241, 0.702);
+}
+
+.todo-container .todo-check:hover{
+    background:rgba(0, 255, 38, 0.681);
+    color: white;
+    cursor: pointer;  
+}
+
+.todo-container .todo-delete{
+    color: red;
+    background:white;
+    font-size: large;
+    border-left: 2px solid rgba(255, 241, 241, 0.702);
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+
+.todo-container .todo-delete:hover{
+    background: rgba(255, 0, 0, 0.679);
+    color:white;
+    cursor: pointer;
+}
+
+.todo-container .todo li{
+    flex: 9;
+    padding:12px ;
+    list-style-type: none;
+    margin: 0px;
+    margin-left: 5px;
+    font-size: large;
+    line-height: 1.5;
+    padding-left: 2%;
+}
+
+
